@@ -1,0 +1,22 @@
+digraph "Decision tree" {
+	node [color=cyan shape=ellipse style=filled]
+	R [label="Root node"]
+	node [color=lightblue shape=ellipse style=filled]
+	d1 [label="Decision node"]
+	d2 [label="Decision node"]
+	d3 [label="Decision node"]
+	node [color=orange shape=ellipse style=filled]
+	L1 [label=Leaf]
+	L2 [label=Leaf]
+	L3 [label=Leaf]
+	L4 [label=Leaf]
+	L5 [label=Leaf]
+	R -> d1 [label=True]
+	R -> d2 [label=False]
+	d1 -> L1
+	d1 -> L2
+	d2 -> d3
+	d2 -> L3
+	d3 -> L4
+	d3 -> L5
+}
