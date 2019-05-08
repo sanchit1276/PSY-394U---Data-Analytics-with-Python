@@ -1,0 +1,17 @@
+#/Applications/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py -f /Users/ssinghal/Library/Jupyter/runtime/kernel-7cd8d05d-0769-4ba8-8321-1fc0b39e6c9f.json
+# GMT Thu Mar 28 19:01:13 2019
+# 
+Manager1 1 3 4 5 2 6 7 8
+1 3 4 5 2 7 8
+3 4 5 2 6 7
+4 5 2 6 7 Manager2 8 9 10 11
+5 6 7
+2 6 7
+6 7
+7 8
+8 Manager2 9 10 11 12
+Manager2 9 10 11 12
+9 10 11
+10 11 12
+11 12
+12
